@@ -1,0 +1,68 @@
+.tabs {
+  display: flex;
+  margin: 5px 5px 0;
+}
+
+#button_original, #button_apps {
+  width: calc(100vw/2);
+  border: none;
+  background: #4b4b4b;
+  color: #9bcc60;
+  height: 3rem;
+  margin: 5px 5px 0;
+  border-radius: 10px 10px 0 0;
+  font-size: large;
+}
+#button_original.active, #button_apps.active {
+  background: #9bcc60;
+  color: white;
+}
+
+.ocean-portal-body.tab-show, .kintone-portal-content-space .links.tab-show {
+  display: block;
+}
+
+.ocean-portal-body.tab-hidden, .kintone-portal-content-space .links.tab-hidden {
+  display: none;
+}
+
+.kintone-portal-content-space .applistwrap {
+  margin: 1rem;
+  column-count: 4;
+  padding: 0 0 5rem;
+}
+
+.kintone-portal-content-space .applist {
+  height: fit-content;
+  margin: 0 0 1rem;
+  display: grid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.kintone-portal-content-space .space-name-area {
+  background-color: #9bcc60;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.kintone-portal-content-space .applink ,.kintone-portal-content-space .space-name-area {
+  display: block;
+  padding: 0.8rem;
+}
+
+.kintone-portal-content-space a.applink {
+  color: #000
+}
+
+.kintone-portal-content-space .applink:hover {
+  opacity: 0.6;
+}
+
+.kintone-portal-content-space .applink:nth-child(odd) {
+  background-color: #f2f4f6;
+}
+
+.kintone-portal-content-space .applink:nth-child(even) {
+  background-color: #fff;
+}
