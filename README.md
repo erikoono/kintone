@@ -4,10 +4,12 @@
 * スペースに所属していないアプリは、[スペースなし]としてまとめて表示します
 
 ## 使い方
-* ``Portal.js``と``Portal.css``をkintoneのシステム管理から適用します。[詳しくはこちら](https://jp.cybozu.help/k/ja/admin/javascript_fullcustomize.html)
-  * Kintoneシステム管理 -> [JavaScript / CSSによるカスタマイズ]を開く(Kintoneシステム管理権限がないと入れません)
-  * PC用JSファイルに``Portal.js``をアップロード
-  * PC用CSSファイルに``Portal.css``をアップロード
+1. ファイルをダウンロード
+1. ``Portal.js``の66行目**{サブドメイン名}**をご自身の利用中のサブドメイン名に修正する
+1. ``Portal.js``と``Portal.css``をkintoneのシステム管理から適用する　[詳しくはこちら](https://jp.cybozu.help/k/ja/admin/javascript_fullcustomize.html)
+    * Kintoneシステム管理 -> [JavaScript / CSSによるカスタマイズ]を開く(Kintoneシステム管理権限がないと入れません)
+    * PC用JSファイルに``Portal.js``をアップロード
+    * PC用CSSファイルに``Portal.css``をアップロード
 
 ## カスタマイズする場合
 * プログラムがわからない方向け
